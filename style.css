@@ -1079,12 +1079,6 @@ img[alt="seta-dir-equipe"]:hover {
     }
 }
 @media (max-width: 900px) {
-    .aulas .turma .botao_1 {
-        width: calc(137px * 0.9);
-        height: calc(43px * 0.9);
-        border-radius: calc(10px * 0.9);
-        font-size: calc(22px * 0.9);
-    }
     .aulas .turma .botao_2_vertical {
         width: calc(277px * 0.9);
         height: calc(86px * 0.9);
@@ -1127,12 +1121,6 @@ img[alt="seta-dir-equipe"]:hover {
     }
 }
 @media (max-width: 768px) {
-    .aulas .turma .botao_1 {
-        width: calc(137px * 0.8);
-        height: calc(43px * 0.8);
-        border-radius: calc(10px * 0.8);
-        font-size: calc(22px * 0.8);
-    }
     .aulas .turma .botao_2_vertical {
         width: calc(277px * 0.8);
         height: calc(86px * 0.8);
@@ -1202,14 +1190,6 @@ img[alt="seta-dir-equipe"]:hover {
     }
 }
 @media (max-width: 540px) {
-    .aulas .turma .botao_1 {
-        width: calc(137px * 0.7);
-        height: calc(43px * 0.7);
-        border-radius: calc(10px * 0.7);
-        font-size: calc(22px * 0.7);
-
-        margin-top: -60px;
-    }
     .aulas .turma .botao_2_vertical {
         width: calc(277px * 0.7);
         height: calc(86px * 0.7);
@@ -1543,7 +1523,7 @@ img[alt="seta-dir-equipe"]:hover {
     max-width: 880px;
     min-width: 480px;
 
-    margin-bottom: 64px;
+    margin-bottom: 40px;
     background-color: #E6EAE1;
 }
 #mostrar {
@@ -1837,6 +1817,7 @@ td:not(.jiu-jitsu):not(.muay-thai)::before {
 @media (max-width: 768px) {
     .botao-mostrar {
         transform: scale(0.9);
+        margin-bottom: 30px;
     }
     table {
         margin-top: -30px;
@@ -1862,20 +1843,20 @@ td:not(.jiu-jitsu):not(.muay-thai)::before {
 @media (max-width: 660px) {
     .botao-mostrar {
         transform: scale(0.8);
+        margin-bottom: 20px;
     }
     table {
         margin-top: -70px;
         transform: scale(0.8);
-        margin-top: -70px;
     }
     .botoes {
         flex-direction: column;
         transform: scale(0.8);
-        margin-top: -50px;
+        margin-top: -100px;
     }
     .botao-baixar {
         transform: scale(0.8);
-        margin-top: -30px;
+        margin-top: 10px;
     }
     .modal {
         width: calc(400px * 0.85);
@@ -1889,19 +1870,20 @@ td:not(.jiu-jitsu):not(.muay-thai)::before {
 @media (max-width: 540px) {
     .botao-mostrar {
         transform: scale(0.7);
+        margin-bottom: 10px;
     }
     table {
         margin-top: -105px;
         transform: scale(0.7);
-        margin-top: -105px;
     }
     .botoes {
         flex-direction: column;
         transform: scale(0.7);
+        margin-top: -145px;
     }
     .botao-baixar {
         transform: scale(0.7);
-        margin-top: -50px;
+        margin-top: 0px;
     }
     .modal {
         width: calc(400px * 0.8);
@@ -1923,11 +1905,10 @@ td:not(.jiu-jitsu):not(.muay-thai)::before {
     .botoes {
         flex-direction: column;
         transform: scale(0.6);
-        margin-top: -150px;
+        margin-top: -195px;
     }
     .botao-baixar {
         transform: scale(0.6);
-        margin-top: -60px;
     }
     .modal {
         width: calc(400px * 0.7);
